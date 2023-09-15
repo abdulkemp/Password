@@ -93,7 +93,7 @@ button{
         width: 14rem;
         height: 4rem;
         font-size: 1.4rem;
-        margin-right: 12rem;
+        /* margin-right: 12rem; */
         margin-top: 3rem;
         border: 2px solid black;
         border-radius: 15px;
@@ -128,7 +128,7 @@ button{
         width: 14rem;
         height: 4rem;
         font-size: 1.4rem;
-        margin-right: 12rem;
+        /* margin-right: 12rem; */
         margin-top: 3rem;
         border: 2px solid black;
         border-radius: 15px;
