@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #921212;
+}
+
+.password{
+    width: 80%;
+    height: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(7px);
+    /* flex-wrap: wrap; */
+}
+
+.password h1{
+    font-size: 5.5rem;
+    color: #921212;
+    padding-bottom: 7rem;
+    /* padding: 4rem; */
+}
+
+.random{
+    width: 35%;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1rem;
+    gap: 10rem;
+    background-color: white;
+}
+
+.random input{
+    border: none;
+    font-size: 1.7rem;
+}
+
+.random svg{
+    width: 2rem;
+}
+button{
+    width: 15rem;
+    height: 5rem;
+    font-size: 3rem;
+    /* margin-right: 12rem; */
+    margin-top: 3rem;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 650px) {
+    .password h1{
+        font-size: 2.8rem;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .random{
+        width: 65%;
+        height: 3rem;
+        border: 2px solid black;
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1.5rem;
+        background-color: white;
+    }
+
+    .random input{
+        font-size: 14px;
+        width: 89%;
+        text-align: center;
+    }
+    button{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.4rem;
+        margin-right: 12rem;
+        margin-top: 3rem;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+}
+@media screen and (max-width: 920px) {
+    .password h1{
+        font-size: 3.8rem;
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+
+    .random{
+        width: 65%;
+        height: 3rem;
+        border: 2px solid black;
+        border-radius: 15px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1.5rem;
+        background-color: white;
+    }
+
+    .random input{
+        font-size: 14px;
+        width: 89%;
+        text-align: center;
+    }
+    button{
+        width: 14rem;
+        height: 4rem;
+        font-size: 1.4rem;
+        margin-right: 12rem;
+        margin-top: 3rem;
+        border: 2px solid black;
+        border-radius: 15px;
+    }
+
+}
