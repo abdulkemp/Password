@@ -50,6 +50,8 @@ body{
 .random input{
     border: none;
     font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
 }
 
 .random svg{
@@ -85,7 +87,7 @@ button{
     }
 
     .random input{
-        font-size: 14px;
+        font-size: 18px !important;
         width: 89%;
         text-align: center;
     }
@@ -120,8 +122,8 @@ button{
     }
 
     .random input{
-        font-size: 14px;
-        width: 89%;
+        font-size: 23px;
+        width: 100%;
         text-align: center;
     }
     button{
